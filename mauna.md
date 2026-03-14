@@ -1,3 +1,15 @@
+## request site
+URL = {
+		"login" : "https://mauna.co.kr/field/member/loginChk",
+		"logout": "https://mauna.co.kr/field/member/logout",
+		"getTee": "https://mauna.co.kr/field/reservation/ajax/golfTimeList",
+		"reservedList": "https://mauna.co.kr/field/reservation/ajax/resListHis",
+		"cancel": "https://mauna.co.kr/field/reservation/golfSubmitCancel",
+		"booking": "https://mauna.co.kr/field/reservation/ajax/golfSubmit",
+		"getCertKey": "https://mauna.co.kr/field/reservation/ajax/golfNoChk",			
+}
+
+## request data
 | comment                 | element             | nextMonth | CalDayClick  | Time (Booking)   | Confirm             |
 |-------------------------|---------------------|-----------|--------------|------------------|---------------------|
 |                         | clickTdId           |           | A20240421    | A20240421        | A20240421           |
