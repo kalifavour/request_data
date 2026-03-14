@@ -6,11 +6,9 @@
 | Choice_course  | 1                                               | 2            | 3            | 5            |
 | Str_Course     | 1 (3단계)                                         | 2            | 3            | 5            |
 |                | 신어 ( 4단계)                                       | 낙동           | 김해           | 가락           |
-|                | %BD%C5%BE%EE                                    | %B3%AB%B5%BF | %B1%E8%C7%D8 | %B0%A1%B6%F4 |
-| Str_Hole       | 18홀 # 18%C8%A6                                  |              |              |              |
+| Str_Hole       | 18홀                                   |              |              |              |
 | Course_Gubun   | M                                               | M            | M            | M            |
-| Lock_Serve_Sec | 2024-05-14+10%3A13%3A38.537623                  |              |              |              |
-|                | -> 2024-05-14 10:13:38.537623                   |              |              |              |
+| Lock_Serve_Sec | 2024-05-14 10:13:38.537623                 |              |              |              |
 |                | datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f') |              |              |              |
 | imageField2.x  | ![login](images/reserve_button.png)34 x 22 이내                                      |              |              |              |
 | imageField2.y  |                                                 |              |              |              |
