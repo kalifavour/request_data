@@ -1,6 +1,11 @@
-| element | Login(POST)                         | Reser18(GET)             | Cal_Click(P)                                      | Time_Click(P)                                     | Confirm(P)                                       |
-|---------|-------------------------------------|--------------------------|---------------------------------------------------|---------------------------------------------------|--------------------------------------------------|
-| Site    | https://www.gayacc.com/main_new.php | /reserve.php?location=01 | /modules/ReserveSchedule/ifm_Reserve_Checking.php | /modules/ReserveSchedule/ifm_Reserve_SPselect.php | /modules/ReserveSchedule/ifm_Reserve_Confirm.php |
-|         | (세션 얻기)                             | (정규18홀인터넷예약)             |(달력날짜 클릭)                                                   | (티 타임 클릭)                                         | (부킹 확정)                                          |
-|         | /member/login.update2.php           |                          |                                          |                                                   |                                                  |
-|         | ( 로그인)                              |                          |                                                   |                                                   |                                                  |
+```python
+Host : https://www.gayacc.com
+URL = {
+	"getSession": "/main_new.php",
+	"login": "/member/login.update2.php",
+	"viewCal": "/reserve.php?location=01", # 정규 18홀 인터넷예약
+	"dayClick": "/modules/ReserveSchedule/ifm_Reserve_Checking.php",  # 달력날짜 클릭
+	"timeClick": "/modules/ReserveSchedule/ifm_Reserve_SPselect.php", # 티 타임 클릭
+	"confirm": "/modules/ReserveSchedule/ifm_Reserve_Confirm.php" # 부킹 확정
+}
+```
