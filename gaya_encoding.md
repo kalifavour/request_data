@@ -17,6 +17,7 @@ data = {
 
 encoded = urllib.parse.urlencode(data, encoding='euc-kr').encode('ascii')
 
+# 아래 항목을 headers에 추가.
 headers = {
     "Content-Type": "application/x-www-form-urlencoded; charset=EUC-KR"
 }
