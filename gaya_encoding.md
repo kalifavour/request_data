@@ -3,7 +3,7 @@
 ```python
 import urllib.parse
 
-data = {  # 사람이 볼수 있는 그대로!!
+data = {
     "Choice_Date": "20240530",
     "Choice_course": "1",
     "Choice_Time": "0514",
